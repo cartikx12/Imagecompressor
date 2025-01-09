@@ -18,7 +18,7 @@ A web-based application that allows users to compress and resize images easily. 
 
 2. Navigate to the project directory:
 
-cd image-compressor
+   cd image-compressor
 
 
 3. Open index.html in your browser to run the application.
