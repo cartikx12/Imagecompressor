@@ -46,10 +46,10 @@ A web-based application that allows users to compress and resize images easily. 
 
 
 3. Resize and Compress:
+   
+   Image dimensions are adjusted using a    <canvas> element.
 
-Image dimensions are adjusted using a <canvas> element.
-
-The image quality is modified based on user input.
+   The image quality is modified based on user input.
 
 
 
