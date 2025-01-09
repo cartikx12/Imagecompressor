@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Compressor</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="upload-box">
+            <input type="file" accept="image/*" hidden>
+            <img src="https://www.codingnepalweb.com/demos/resize-and-compress-image-javascript/upload-icon.svg" alt="">
+            <p>Browse File to upload </p>
+        </div>
+        <div class="content">
+            <div class="row sizes">
+                <div class="column width">
+                    <label>Width</label>
+                    <input type="number" name="" id="">
+                </div>
+                <div class="column height">
+                    <label>Height</label>
+                    <input type="number" name="" id="">
+                </div>
+            </div>
+            <div class="row options">
+                <div class="column ratio">
+                    <label>Aspect Ratio</label>
+                    <input type="checkbox" checked>
+                </div>
+                <div class="column quality">
+                    <label>Quality</label>
+                    <input type="number" min="0" max="100" value="100">
+                </div>
+            </div>
+            <button class="download-btn">Download</button>
+        </div>
+    </div>
+</body>
+</html>
+
+
